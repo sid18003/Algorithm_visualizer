@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.heading {
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  padding-top: 1rem;
+  width: -webkit-fill-available;
+}
+.button {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+.array {
+  margin: auto;
+  padding-top: 1rem;
+  display: flex;
+  align-items: flex-end;
+  min-height: 80vh;
+}
+.arraybar {
+  margin-right: 0.1rem;
+  text-align: center;
+}

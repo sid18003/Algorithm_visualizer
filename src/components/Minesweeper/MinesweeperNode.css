@@ -1,0 +1,43 @@
+.node-Minesweeper {
+  outline: 1px solid rgb(175, 216, 248);
+  text-align: center;
+  font-size: 1rem;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.node-mine {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("/bomb.jpg") no-repeat center center / cover;
+}
+.node-notrevealed {
+  box-shadow: rgba(0, 0, 0, 0.37) 0px -3px 5px 0px inset,
+    rgba(0, 0, 0, 0.35) 0px -6px 3px 0px inset,
+    rgba(0, 0, 0, 0.3) 0px -9px 4px 0px inset, rgba(0, 0, 0, 0.56) 0px 2px 1px,
+    rgba(0, 0, 0, 0.39) 0px 4px 2px, rgba(0, 0, 0, 0.39) 0px 8px 4px,
+    rgba(0, 0, 0, 0.39) 0px 6px 8px, rgba(0, 0, 0, 0.39) 0px 3px 6px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.37) 0px -3px 5px 0px inset,
+    rgba(0, 0, 0, 0.35) 0px -6px 3px 0px inset,
+    rgba(0, 0, 0, 0.3) 0px -9px 4px 0px inset, rgba(0, 0, 0, 0.56) 0px 2px 1px,
+    rgba(0, 0, 0, 0.39) 0px 4px 2px, rgba(0, 0, 0, 0.39) 0px 8px 4px,
+    rgba(0, 0, 0, 0.39) 0px 6px 8px, rgba(0, 0, 0, 0.39) 0px 3px 6px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.37) 0px -3px 5px 0px inset,
+    rgba(0, 0, 0, 0.35) 0px -6px 3px 0px inset,
+    rgba(0, 0, 0, 0.3) 0px -9px 4px 0px inset, rgba(0, 0, 0, 0.56) 0px 2px 1px,
+    rgba(0, 0, 0, 0.39) 0px 4px 2px, rgba(0, 0, 0, 0.39) 0px 8px 4px,
+    rgba(0, 0, 0, 0.39) 0px 6px 8px, rgba(0, 0, 0, 0.39) 0px 3px 6px;
+}
+.node-revealed {
+  background-color: #3d7a3d;
+}
+@media screen and (max-width: 800px) {
+  .node-Minesweeper {
+    font-size: 0.75rem;
+    outline: 0.5px solid rgb(175, 216, 248);
+  }
+}
+@media screen and (max-width: 600px) {
+  .node-Minesweeper {
+    font-size: 0.5rem;
+  }
+}

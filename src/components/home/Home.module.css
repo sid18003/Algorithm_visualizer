@@ -1,0 +1,77 @@
+.home {
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  padding-top: 0.5rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("/WelcomePage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.heading_top {
+  padding: 0;
+  margin: 0;
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  padding-top: 1rem;
+  width: -webkit-fill-available;
+}
+.each_object {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: -webkit-fill-available;
+}
+.heading {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  text-align: left;
+  color: #02ffe7;
+}
+.navbar {
+  padding-bottom: 2rem;
+  width: -webkit-fill-available;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: -webkit-fill-available;
+}
+.navItem {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+}
+.navItem:hover {
+  color: #02ffe7;
+}
+@media screen and (max-width: 700px) {
+  .heading {
+    font-size: 2rem;
+  }
+  .navItem {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home {
+    padding: 1rem 1rem;
+  }
+}

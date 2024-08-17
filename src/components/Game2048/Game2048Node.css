@@ -1,0 +1,16 @@
+.node-Game2048 {
+  outline: 1.5px solid rgb(175, 216, 248);
+  text-align: center;
+  font-size: 1.75rem;
+  color: #000000;
+}
+@media screen and (max-width: 800px) {
+  .node-Game2048 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .node-Game2048 {
+    font-size: 0.75rem;
+  }
+}

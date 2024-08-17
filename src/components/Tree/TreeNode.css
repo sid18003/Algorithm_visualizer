@@ -1,0 +1,19 @@
+.common {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row_each_Element {
+  background-color: black;
+}
+
+.visited {
+  background-color: white;
+  color: black;
+}

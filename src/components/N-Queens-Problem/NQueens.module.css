@@ -1,0 +1,98 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.heading {
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  padding-top: 1rem;
+  width: -webkit-fill-available;
+}
+.equation {
+  padding: 1rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 60vw;
+  gap: 2rem;
+}
+.equation input {
+  border: none;
+  outline: none;
+  background: white;
+  border-radius: 6px;
+  padding: 0.5rem 0.5rem;
+  margin: 0rem 0.5rem;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  color: black;
+  width: 100%;
+  font-size: 1.25rem;
+}
+.equation input:focus {
+  border-bottom: 1px solid white;
+}
+.equation input::placeholder {
+  font-size: 1rem;
+}
+.submitbutton {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.headStep {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.animations_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 2rem;
+}
+
+.animations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  min-width: 60vw;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.animation {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  width: 25px;
+  height: 25px;
+}
+
+.col img {
+  width: 25px;
+  height: 25px;
+}
