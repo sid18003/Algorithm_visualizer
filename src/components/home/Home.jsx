@@ -4,24 +4,12 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   const data = {
-    "Sorting Visualizer": [
-      ["/sorting/mergesort", "Mergesort"],
-      ["/sorting/selectionsort", "Selectionsort"],
-      ["/sorting/bubblesort", "Bubblesort"],
-      ["/sorting/insertionsort", "Insertionsort"],
-      ["/sorting/quicksort", "Quicksort"],
-    ],
     "Graph Visualizer": [
       ["/graph/breadthfirstsearch", "Breadth First Search"],
       ["/graph/depthfirstsearch", "Depth First Search"],
       ["/graph/minimumcostpath", "Minimum Cost Path"],
     ],
-    "General Problems": [
-      ["/equationsolve", "Equation Solver"],
-      ["/nqueen", "N-Queen Problem"],
-      ["/minesweeper", "Minesweeper Game"],
-      ["/game2048", "2048 Game"],
-    ],
+   
     "Tree Visualizer": [
       ["/tree/preordertraversal", "Preorder Traversal"],
       ["/tree/inordertranversal", "Inorder Traversal"],
